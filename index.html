@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PINCET</title>
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <section class="wrapper" style="background-image: url(images/bg.png);">
+        <header class="header">
+            <div class="heart-img__small heart-img" style="background-image: url(images/heart-small.png);"></div>
+            <div class="container">
+                <div class="header-top">
+                    <a href="#" class="header__logo">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                    <div class="header__text">
+                        Студия депиляции и массажный кабинет в Бресте
+                    </div>
+                    <div class="header__location">
+                        <img src="images/map.png" alt="">
+                        <div class="header__location-info">
+                            <div class="header__location-title">
+                                Мы находимся в центре:
+                            </div>
+                            <div class="header__location-text">
+                                г. Брест, ул. Гоголя, д.65
+                            </div>
+                            <a href="#" class="header__location-link">
+                                Смотреть на карте   
+                                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2451.251504897094!2d23.696079115791587!3d52.09335417973561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47210bfa0846eda1%3A0x9d8826f6a26a2b91!2z0YPQuy4g0JPQvtCz0L7Qu9GPIDY1LCDQkdGA0LXRgdGCLCDQkdC10LvQsNGA0YPRgdGM!5e0!3m2!1sru!2sru!4v1592831720738!5m2!1sru!2sru" width="400" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header__contacts">
+                         <div class="header__contacts-text">
+                            Звоните, мы сейчас работаем
+                         </div>
+                         <a href="tel:+375333822499" class="header__contacts-phone">+375 33 382 24 99</a>
+                        <div class="header__contacts-time">Пн-Вс <span>9:00-21:00</span></div>
+                    </div>
+                    <a class="header-btn" data-fancybox data-src="#modal" href="javascript:;">Записаться онлайн</a>
+                </div>
+                <nav class="menu">
+                    <ul class="menu-list">                                         
+                        <li><a href="#" class="active">Главная</a></li>
+                        <li><a href="#">Шугаринг и депиляция воском </a></li>
+                        <li><a href="#">Антицеллюлитный массаж</a></li>
+                        <li><a href="#">Классический массаж</a></li>
+                        <li><a href="#">Обучение</a></li>
+                        <li><a href="#">Косметика для мастеров </a></li>
+                        <li><a href="#">Статьи</a></li>
+                        <li><a href="#">О студии</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-wrapper">
+                    <div class="hamburger-menu" id="hamburger"></div>	  
+                </div>
+            </div>
+        </header>
+        <section class="main">
+            <div class="heart-img__big heart-img" style="background-image: url(images/heart-big.png);"></div>
+            <div class="container">
+                <div class="main__inner">
+                    <div class="main__title">
+                        Хотите избавиться от
+                        <span> нежелательных волос</span>
+                        или нужен сеанс
+                        <span>антицеллюлитного массажа?</span>
+                    </div>
+                    <ul class="main__list">
+                        <li>депиляция воском и Шугаринг;</li>
+                        <li>профессиональные сертифицированные мастера;</li>
+                        <li>работаем и с женщинами, и с мужчинами;</li>
+                        <li>результат уже после первой процедуры.</li>
+                    </ul>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="main-btn button">ПОЛУЧИТЬ КАРТУ <br> КЛИЕНТА БЕСПЛАТНО</a>
+                    <div class="img-card">
+                        <img src="images/card.png" alt="">
+                    </div>
+                    <a href="#" class="info-btn">
+                        <div class="card-info">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        </div>
+                    </a>
+                  
+                    
+                </div>
+                <a href="#" class="arrow-down icon-keyboard_arrow_down"></a>
+            </div>
+            <div class="main-img">
+                <img src="images/woman.png" alt="">
+            </div>
+        </section>
+        <div class="wave" style="background-image: url(images/wave.png);"></div>
+    </section>
+    <div id="modal" class="modal">
+        <div class="modal__inner" style="background-image: url(images/bg.png);">
+            <div class="modal__title">
+                <span>Получите</span> программу обучения
+            </div>
+            <div class="modal__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+            </div>
+            <div class="form">
+                <form class="modal-form">
+                    <select required>
+                        <option value="">Повыешенмие квалификации</option>
+                        <option value="">Повыешенмие квалификации</option>
+                    </select>
+                    <input type="text" placeholder="Ваше имя" required>
+                    <label for="">
+                        <input type="tel" placeholder="Ваш номер телефона" required>
+                    </label>
+                   
+                    <a data-fancybox data-animation-duration="700" data-src="#successful-modal" href="javascript:;" class="button" type="submit">Получить программу</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="successful-modal" class="successful-modal" style="background-image: url(images/bg.png);">
+        <div class="successful__inner">
+            <div class="successful-icon"></div>
+            <div class="successful__title">
+                Ваш заказ принят.
+            </div>
+            <div class="successful__text">
+                Ожидайте звонка
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="libs/fancybox/jquery.fancybox.min.js"></script>
+    <script src="libs/rellax.js/rellax.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

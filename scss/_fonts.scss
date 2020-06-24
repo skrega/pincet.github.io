@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'AppetiteNew', sans-serif;
+    src: url('../fonts/AppetiteNew.woff2') format('woff2'),
+         url('../fonts/AppetiteNew.woff') format('woff');
+    // font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'MuseoSansCyrl-Thin', sans-serif;
+    src: url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'),
+         url('../fonts/MuseoSansCyrl-100.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'MuseoSansCyrl-Light', sans-serif;
+    src: url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'),
+         url('../fonts/MuseoSansCyrl-300.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'MuseoSansCyrl-Medium', sans-serif;
+    src: url('../fonts/MuseoSansCyrl-500.woff2') format('woff2'),
+         url('../fonts/MuseoSansCyrl-500.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'MuseoSansCyrl-Bold', sans-serif;
+    src: url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'),
+         url('../fonts/MuseoSansCyrl-700.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'MuseoSansCyrl-Black', sans-serif;
+    src: url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'),
+         url('../fonts/MuseoSansCyrl-900.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?gdfl8t');
+    src:  url('../fonts/icomoon.eot?gdfl8t#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?gdfl8t') format('truetype'),
+      url('../fonts/icomoon.woff?gdfl8t') format('woff'),
+      url('../fonts/icomoon.svg?gdfl8t#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-check:before {
+    content: "\e903";
+  }
+  .icon-keyboard_arrow_down:before {
+    content: "\e901";
+  }
+  .icon-info:before {
+    content: "\e900";
+  }
